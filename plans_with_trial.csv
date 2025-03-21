@@ -1,0 +1,4 @@
+id,project,plan_id,name,price,currency,provider,type,duration,amplitude_id,trial_price,price_vat,trial_price_vat,payment_page,is_test,base_id,ab_test_id,trial_duration,vat_rate,paypal_account,country_codes
+909d7ae4-824b-4dcf-801a-7507f6f38ab0,famity,,Subscription $39.99/month with trial $6.99/week,39.99,USD,ixopay,SUBSCRIPTION WITH TRIAL,30 days,,6.99,39.99,6.99,,FALSE,,,7 days,1.0,,['ROW']
+1f572eba-658d-40c9-97ea-3b8a08519b7f,famity,,Subscription $39.99/month with trial $19.99/month,39.99,USD,ixopay,SUBSCRIPTION WITH TRIAL,30 days,,19.99,39.99,19.99,,FALSE,,,30 days,1.0,,['ROW']
+d1b26a6b-8dd8-4018-9e3e-56f29893e266,famity,,Subscription $59.99/quarter with trial $29.99/quarter,59.99,USD,ixopay,SUBSCRIPTION WITH TRIAL,91 days,,29.99,59.99,29.99,,FALSE,,,91 days,1.0,,['ROW']
