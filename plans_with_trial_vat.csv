@@ -1,0 +1,13 @@
+id,project,plan_id,name,price,currency,provider,type,duration,amplitude_id,trial_price,price_vat,trial_price_vat,payment_page,is_test,base_id,ab_test_id,trial_duration,vat_rate,paypal_account,country_codes
+d00b9d51-e066-4a64-8a69-a3c5171b7199,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,89.99,44.99,,FALSE,,,180 days,1.00,,['ROW']
+186503e0-bbc6-4467-ae2b-a46bc87c961a,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,105.29,52.64,,FALSE,,,180 days,17.00,,['LU']
+819714e9-23a7-487d-8df0-ed93e503e9b6,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,106.19,53.09,,FALSE,,,180 days,18.00,,['MT']
+28768a38-c5d1-4f04-ade1-8fd533421ac7,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,107.09,53.54,,FALSE,,,180 days,19.00,,"['DE', 'CY', 'RO']"
+8e5df807-72c9-4c21-8769-ce40a62551db,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,107.99,53.99,,FALSE,,,180 days,20.00,,"['BG', 'FR', 'AT', 'UK', 'SK']"
+ccadf541-01b2-45b8-922a-23c3649e5f30,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,108.89,54.44,,FALSE,,,180 days,21.00,,"['CZ', 'ES', 'LV', 'LT', 'NL', 'BE']"
+dc202e4e-b0fb-4910-8898-80fee7843819,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,109.79,54.89,,FALSE,,,180 days,22.00,,"['IT', 'SI', 'EE']"
+4706c0f4-747c-4063-bf0b-0e6e74d45332,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,110.69,55.34,,FALSE,,,180 days,23.00,,"['IE', 'PL', 'PT']"
+204162fb-f115-4ab3-a14d-8bb289a4295a,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,111.59,55.79,,FALSE,,,180 days,24.00,,['EL']
+761eb04c-4682-4c0e-aeb1-cad6e80cd683,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,112.49,56.24,,FALSE,,,180 days,25.00,,"['DK', 'HR', 'SE']"
+79c5ecb3-34e0-4f14-9915-890abfee4e7f,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,112.94,56.46,,FALSE,,,180 days,25.50,,['FI']
+273b1c26-ce36-4ca6-8ee1-b2bafa041b21,meal-mentor,,24-WEEK PLAN,89.99,EUR,ixopay,SUBSCRIPTION WITH TRIAL,180 days,,44.99,114.29,57.14,,FALSE,,,180 days,27.00,,['HU']

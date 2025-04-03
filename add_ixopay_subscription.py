@@ -3,6 +3,7 @@ import csv
 import requests
 import time
 import ast
+from decimal import Decimal
 
 from dotenv import load_dotenv
 
@@ -10,12 +11,13 @@ load_dotenv()
 
 api_url_dev = os.getenv("WEB_PAYMENT_SERVICE_DEV")
 api_url_prod = os.getenv("WEB_PAYMENT_SERVICE_PROD")
-plans = os.getenv("PLANS_WITH_TRIAL")
+plans = os.getenv("PLANS_WITH_TRIAL_VAT")
 
 
 def form_request_body(row):
     subscription_duration = row['duration']
-    amplitude_id_vat_suffix = '' if float(row['vat_rate']) == 1.0 else f"_vat_{int(float(row['vat_rate']))}"
+    vat_rate_normalized = format(Decimal(row['vat_rate']).normalize(), 'f')
+    amplitude_id_vat_suffix = '' if float(row['vat_rate']) == 1.0 else f"_vat_{vat_rate_normalized.rstrip('0').rstrip('.') if '.' in vat_rate_normalized else vat_rate_normalized}"
     trial_duration = '' if row['trial_duration'] == 'NULL' else row['trial_duration']
     trial_price = '' if float(row['trial_price']) == 0 else format(float(row['trial_price']), ".2f")
     amplitude_id = f"{subscription_duration.replace(' ', '')}_{float(row['price']):.2f}$_with_trial_{trial_duration.replace(' ', '')}_{trial_price}${amplitude_id_vat_suffix}"
