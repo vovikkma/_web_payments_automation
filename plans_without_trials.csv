@@ -1,0 +1,4 @@
+id,project,plan_id,name,price,currency,provider,type,duration,amplitude_id,trial_price,price_vat,trial_price_vat,payment_page,is_test,base_id,ab_test_id,trial_duration,vat_rate,paypal_account,country_codes
+e8b81905-3298-43d3-8bab-17ad9db1bfa1,drim-escape,,Subscription: $33.00 every 2 months,33.00,USD,ixopay,SUBSCRIPTION,60 days,60days_33.00$,,33.00,,,FALSE,,,,1.0,,['ROW']
+279e60f2-be7d-4276-8c82-34931d514495,drim-escape,,Subscription: $53.94 every 4 months,53.94,USD,ixopay,SUBSCRIPTION,120 days,120days_53.94$,,53.94,,,FALSE,,,,1.0,,['ROW']
+4a95269f-4a01-4fdf-9245-751d3cf8a497,drim-escape,,Subscription: $66.00 every 6 months,66.00,USD,ixopay,SUBSCRIPTION,150 days,150days_66.00$,,66.00,,,FALSE,,,,1.0,,['ROW']
